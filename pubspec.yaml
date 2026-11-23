@@ -1,0 +1,30 @@
+name: workspace
+description: Aakar Realities mobile application.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.14.1
+
+  material_ui: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/aakar-realities-icon.png
+  adaptive_icon_background: "#F7F9FC"
+  adaptive_icon_foreground: assets/aakar-realities-adaptive-foreground.png
+  adaptive_icon_monochrome: assets/android-icon-monochrome.png
